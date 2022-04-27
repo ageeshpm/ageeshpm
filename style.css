@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Lexend+Deca:wght@200&family=Playfair+Display+SC&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Babylonica&family=Lexend+Deca:wght@200&family=Playfair+Display+SC&family=Satisfy&display=swap');
+
+/* scorllbar style */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(103, 107, 99, 0.7); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(64, 68, 61, 0.3); 
+  }
+/* scrollbar style */
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    /* background: linear-gradient(to top left, #ffffff, #ffefef); */
+    background-color: white;
+    padding-top: 15px;
+    display: flex;
+    position: fixed;
+    /* border-radius: 10px; */
+    box-shadow: 10px 5px 30px rgb(0, 0, 0);
+    
+}
+
+.bg {
+    background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.589)),url(images/bg1.jpg);
+    height: 550px;
+    background-size: cover;
+    /* padding: 150px; */
+    text-align: center;
+    padding-top: 120px;
+    /* margin-top: 30px; */
+    /* display: flex; */
+}
+
+.logo {
+    margin-left: 40px;
+
+}
+
+.logo:hover {
+
+    transform: scale(1.3);
+    -webkit-transition: transform .5s ease-in-out;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    margin-left: 50%;
+}
+.menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    font-weight: 500;
+}
+.menu li a:hover {
+    color: rgb(248, 135, 82);
+    font-size: 17px;
+}
+.title {
+    font-size: 150px;
+    font-weight: 00;
+    font-family: 'Advent Pro', sans-serif;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-left: 0px;
+
+}
+.webinfo {
+    height: 30px;
+    background-color: #000000;
+    padding: 30px;
+    align-content: center;
+    text-align: center;
+}
+.info {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+.page{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    /* background-color: #ffffff; */
+    background: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.205)),url(images/ww.jpg);
+    background-size: cover;
+    height: 70VH;
+    margin-left: 300px;
+
+}
+.leftweb{
+   height: 300px;
+   width: 50%;
+   background-color: #000000;
+   border-radius: 15px;
+   /* text-align: center; */
+   color: #fdffff;
+   display: flex;
+   justify-content: center;
+}
+/* .text1{
+    font-size: 30px;
+    margin-top: 130px;
+    margin-left: 50px;
+    
+} */
+.rightweb{
+    height: 300px;
+    width: 600px;
+    border-radius: 15px;
+    background: linear-gradient( rgba(0, 0, 0, 0),black), url(images/web.png);
+    background-size: cover;
+    margin-left: 60px;
+}
+.logos{
+    padding: 30px;
+}
+.round {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 200px;
+}
+.round:hover {
+    background-color: #ffffff;
+
+    /* background: linear-gradient(to bottom right, #ffefba, #ff8b68); */
+}
+.black{
+    color: rgb(255, 255, 255);
+}
+.round.has-transition {
+transition: transform 150ms ease-in-out;
+}
+@-webkit-keyframes fadeinout {
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeinout {
+    50% {
+        opacity: 1;
+    }
+}
+.round2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    /* background: linear-gradient(to bottom right, #ffd650, #f75e2f); */
+    background-color: white;
+    margin-left: 800px;
+    margin-top: 210px;
+
+}
+.content {
+    background: linear-gradient(#ffffff, #ffffff);
+    height: 60vh;
+    display: inline-flexbox;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 80px auto 80px;
+    column-gap: 10px;
+    row-gap: 15px;
+    display: flex;
+    padding: 90px;
+    padding-left: 70px;
+    justify-content: space-between;
+ padding-top: 120px;
+}
+.img1,.img2,.img3,.img4,.img5 {
+    background-color: aliceblue;
+    height: 250px;
+    width: 250px;
+    padding-left: 20px;
+    border-radius: 12px;
+}
+
+.rightbox {
+    /* background: linear-gradient(rgb(166, 162, 218), rgb(247, 202, 161)); */
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 400px;
+    border-left: 30px;
+    border-radius: 100%;
+    background: url(images/me.jpg);
+    background-size: cover;
+}
+
+.leftbox {
+    background-color: #fdffff;
+    height: 300px;
+    width: 50%;
+    border-radius: 20px;
+    display: inline;
+    padding: 30px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.ageesh {
+    font-size: 90px;
+    color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about {
+    margin-top: 40px;
+    font-size: 15px;
+    color: #000000;
+    padding-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bu {
+    margin-top: 230px;
+    margin-left: 260px;
+    border-radius: 60px;
+    border: none;
+    background-color: #ffffff;
+    padding: 10px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    font-size: 15px;
+}
+.bu:hover {
+    transform: scale(1.2);
+    background-color: #000000;
+    color: white;
+    -webkit-transition: transform .5s ease-in-out;
+}
+.footer {
+    background: linear-gradient(to top left, #ffffff, #ffffff);
+    height: 250px;
+    display: flex;
+    padding: 50px;
+    padding-left: 100px;
+}
+.logos{
+    padding: 40px;
+    -webkit-transition: transform .5s ease-in-out;
+}
+.logos:hover{
+     transform: scale(1.2);
+}
