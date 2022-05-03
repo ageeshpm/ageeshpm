@@ -147,7 +147,22 @@ body{
     border-radius: 100%;
     background-color: white;
     margin-left: 200px;
+    position: relative;
+    z-index: 1;
 }
+.free1{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    /* background-color: green; */
+}
+.styl1{
+    position: absolute;
+    left: 100%;
+    top: 20px;
+    /* background-color: green; */
+}
+
 .round:hover {
     background-color: #ffffff;
 
